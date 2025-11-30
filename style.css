@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+
+margin-left: 650px;
+margin-top: 300px;
+margin-right: 0%;
+}
+div{
+  
+   padding-right: 670px;
+  
+}
+form{
+    background-color: rgb(56, 58, 54);
+    color: aliceblue;
+border: 3px solid rgb(111, 90, 44);
+border-radius: 10px;
+padding-left: 14px;
+padding-top: 15px;
+padding-bottom: 15px;
+
+}
+.username{
+  padding-top: 6px;
+}
+.password{
+    padding-top: 6px;
+  
+}
+.submit{
+    padding-top: 10px;
+    padding-left: 50px;
+}
