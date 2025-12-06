@@ -1,33 +1,23 @@
-body{
+nav{
     background-color: black;
-
-margin-left: 650px;
-margin-top: 300px;
-margin-right: 0%;
+    padding: 1rem;
 }
-div{
-  
-   padding-right: 670px;
-  
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
-form{
-    background-color: rgb(56, 58, 54);
-    color: aliceblue;
-border: 3px solid rgb(111, 90, 44);
-border-radius: 10px;
-padding-left: 14px;
-padding-top: 15px;
-padding-bottom: 15px;
-
+nav ul li{
+   display: inline;
 }
-.username{
-  padding-top: 6px;
+nav ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
 }
-.password{
-    padding-top: 6px;
-  
-}
-.submit{
-    padding-top: 10px;
-    padding-left: 50px;
+nav ul li a:hover{
+    background-color: rgb(50, 52, 52);
+    border-radius: 5px;
 }
