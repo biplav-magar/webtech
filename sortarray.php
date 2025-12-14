@@ -6,9 +6,9 @@ for ($i = 0; $i < count($arr); $i++) {
     echo $arr[$i] . " ";
 }
 rsort($arr);
-echo "
-Descending: ";
+echo "Descending: ";
 for ($i = 0; $i < count($arr); $i++) {
     echo $arr[$i] . " ";
 }
+
 ?>
